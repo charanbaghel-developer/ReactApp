@@ -1,0 +1,63 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f6f9;
+}
+
+.auth-box {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-box button:hover {
+  background: #0056b3;
+}
+
+.toggle-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.toggle-text span {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.role-row {
+  display: flex;
+  gap: 20px;
+}
+.checkbox-label {
+  display: flex;              /* 🔥 main fix */
+  align-items: center;        /* 🔥 vertical alignment */
+  gap: 6px;
+  margin-top: 5px;            /* optional: adjust if needed */
+}
